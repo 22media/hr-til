@@ -18,8 +18,5 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
   config.active_record.dump_schema_after_migration = false
 
-  config.action_controller.default_url_options = {
-    host: ENV['host'],
-    protocol: 'https://'
-  }
+  config.action_controller.default_url_options = {}
 end
