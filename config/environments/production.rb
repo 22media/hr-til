@@ -10,7 +10,7 @@ Rails.application.configure do
   config.assets.js_compressor = :uglifier
 
   config.assets.compile = false
-  config.assets.digest = true
+  config.assets.digest = false
   config.log_level = :debug
   config.i18n.fallbacks = true
 
